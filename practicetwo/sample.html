@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="sample">Duplicate this sentence</h2>
+    <h3 id="duplicate"></h3>
+
+    <script>
+
+        let target = document.getElementById('sample');
+        let h3element = document.getElementById('duplicate');
+
+        h3element.innerHTML = target.innerHTML;
+    </script>
+</body>
+</html>
